@@ -1,0 +1,14 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/** @enum {number} */
+const KalturaYahooDistributionProcessFeedActionStatus = {
+    automatic: 1,
+    manual: 0,
+};
+export { KalturaYahooDistributionProcessFeedActionStatus };
+KalturaYahooDistributionProcessFeedActionStatus[KalturaYahooDistributionProcessFeedActionStatus.automatic] = 'automatic';
+KalturaYahooDistributionProcessFeedActionStatus[KalturaYahooDistributionProcessFeedActionStatus.manual] = 'manual';
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiS2FsdHVyYVlhaG9vRGlzdHJpYnV0aW9uUHJvY2Vzc0ZlZWRBY3Rpb25TdGF0dXMuanMiLCJzb3VyY2VSb290Ijoibmc6Ly9rYWx0dXJhLW5neC1jbGllbnQvIiwic291cmNlcyI6WyJsaWIvYXBpL3R5cGVzL0thbHR1cmFZYWhvb0Rpc3RyaWJ1dGlvblByb2Nlc3NGZWVkQWN0aW9uU3RhdHVzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7OztJQUdJLFlBQVc7SUFDZCxTQUFROzs7Z0dBREwsU0FBUztnR0FDWixNQUFNIiwic291cmNlc0NvbnRlbnQiOlsiXG5cbmV4cG9ydCBlbnVtIEthbHR1cmFZYWhvb0Rpc3RyaWJ1dGlvblByb2Nlc3NGZWVkQWN0aW9uU3RhdHVzIHtcbiAgICBhdXRvbWF0aWM9MSxcblx0bWFudWFsPTBcbn0iXX0=

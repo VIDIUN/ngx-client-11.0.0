@@ -1,0 +1,14 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/** @enum {string} */
+var KalturaVirusScanEngineType = {
+    clamavScanEngine: 'clamAVScanEngine.ClamAV',
+    symantecScanDirectEngine: 'symantecScanEngine.SymantecScanDirectEngine',
+    symantecScanEngine: 'symantecScanEngine.SymantecScanEngine',
+    symantecScanJavaEngine: 'symantecScanEngine.SymantecScanJavaEngine',
+};
+export { KalturaVirusScanEngineType };
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiS2FsdHVyYVZpcnVzU2NhbkVuZ2luZVR5cGUuanMiLCJzb3VyY2VSb290Ijoibmc6Ly9rYWx0dXJhLW5neC1jbGllbnQvIiwic291cmNlcyI6WyJsaWIvYXBpL3R5cGVzL0thbHR1cmFWaXJ1c1NjYW5FbmdpbmVUeXBlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7OztJQUdJLGtCQUFtQix5QkFBeUI7SUFDL0MsMEJBQTJCLDZDQUE2QztJQUN4RSxvQkFBcUIsdUNBQXVDO0lBQzVELHdCQUF5QiwyQ0FBMkMiLCJzb3VyY2VzQ29udGVudCI6WyJcblxuZXhwb3J0IGVudW0gS2FsdHVyYVZpcnVzU2NhbkVuZ2luZVR5cGUge1xuICAgIGNsYW1hdlNjYW5FbmdpbmUgPSAnY2xhbUFWU2NhbkVuZ2luZS5DbGFtQVYnLFxuXHRzeW1hbnRlY1NjYW5EaXJlY3RFbmdpbmUgPSAnc3ltYW50ZWNTY2FuRW5naW5lLlN5bWFudGVjU2NhbkRpcmVjdEVuZ2luZScsXG5cdHN5bWFudGVjU2NhbkVuZ2luZSA9ICdzeW1hbnRlY1NjYW5FbmdpbmUuU3ltYW50ZWNTY2FuRW5naW5lJyxcblx0c3ltYW50ZWNTY2FuSmF2YUVuZ2luZSA9ICdzeW1hbnRlY1NjYW5FbmdpbmUuU3ltYW50ZWNTY2FuSmF2YUVuZ2luZSdcbn0iXX0=

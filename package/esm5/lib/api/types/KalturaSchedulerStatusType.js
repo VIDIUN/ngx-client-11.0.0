@@ -1,0 +1,24 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/** @enum {number} */
+var KalturaSchedulerStatusType = {
+    runningBatchesCount: 1,
+    runningBatchesCpu: 2,
+    runningBatchesDiscIo: 5,
+    runningBatchesDiscSpace: 6,
+    runningBatchesIsRunning: 7,
+    runningBatchesMemory: 3,
+    runningBatchesNetwork: 4,
+};
+export { KalturaSchedulerStatusType };
+KalturaSchedulerStatusType[KalturaSchedulerStatusType.runningBatchesCount] = 'runningBatchesCount';
+KalturaSchedulerStatusType[KalturaSchedulerStatusType.runningBatchesCpu] = 'runningBatchesCpu';
+KalturaSchedulerStatusType[KalturaSchedulerStatusType.runningBatchesDiscIo] = 'runningBatchesDiscIo';
+KalturaSchedulerStatusType[KalturaSchedulerStatusType.runningBatchesDiscSpace] = 'runningBatchesDiscSpace';
+KalturaSchedulerStatusType[KalturaSchedulerStatusType.runningBatchesIsRunning] = 'runningBatchesIsRunning';
+KalturaSchedulerStatusType[KalturaSchedulerStatusType.runningBatchesMemory] = 'runningBatchesMemory';
+KalturaSchedulerStatusType[KalturaSchedulerStatusType.runningBatchesNetwork] = 'runningBatchesNetwork';
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiS2FsdHVyYVNjaGVkdWxlclN0YXR1c1R5cGUuanMiLCJzb3VyY2VSb290Ijoibmc6Ly9rYWx0dXJhLW5neC1jbGllbnQvIiwic291cmNlcyI6WyJsaWIvYXBpL3R5cGVzL0thbHR1cmFTY2hlZHVsZXJTdGF0dXNUeXBlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7OztJQUdJLHNCQUFxQjtJQUN4QixvQkFBbUI7SUFDbkIsdUJBQXNCO0lBQ3RCLDBCQUF5QjtJQUN6QiwwQkFBeUI7SUFDekIsdUJBQXNCO0lBQ3RCLHdCQUF1Qjs7O3NEQU5wQixtQkFBbUI7c0RBQ3RCLGlCQUFpQjtzREFDakIsb0JBQW9CO3NEQUNwQix1QkFBdUI7c0RBQ3ZCLHVCQUF1QjtzREFDdkIsb0JBQW9CO3NEQUNwQixxQkFBcUIiLCJzb3VyY2VzQ29udGVudCI6WyJcblxuZXhwb3J0IGVudW0gS2FsdHVyYVNjaGVkdWxlclN0YXR1c1R5cGUge1xuICAgIHJ1bm5pbmdCYXRjaGVzQ291bnQ9MSxcblx0cnVubmluZ0JhdGNoZXNDcHU9Mixcblx0cnVubmluZ0JhdGNoZXNEaXNjSW89NSxcblx0cnVubmluZ0JhdGNoZXNEaXNjU3BhY2U9Nixcblx0cnVubmluZ0JhdGNoZXNJc1J1bm5pbmc9Nyxcblx0cnVubmluZ0JhdGNoZXNNZW1vcnk9Myxcblx0cnVubmluZ0JhdGNoZXNOZXR3b3JrPTRcbn0iXX0=

@@ -1,0 +1,16 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/** @enum {number} */
+const KalturaDropFolderFileDeletePolicy = {
+    autoDelete: 2,
+    autoDeleteWhenEntryIsReady: 3,
+    manualDelete: 1,
+};
+export { KalturaDropFolderFileDeletePolicy };
+KalturaDropFolderFileDeletePolicy[KalturaDropFolderFileDeletePolicy.autoDelete] = 'autoDelete';
+KalturaDropFolderFileDeletePolicy[KalturaDropFolderFileDeletePolicy.autoDeleteWhenEntryIsReady] = 'autoDeleteWhenEntryIsReady';
+KalturaDropFolderFileDeletePolicy[KalturaDropFolderFileDeletePolicy.manualDelete] = 'manualDelete';
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiS2FsdHVyYURyb3BGb2xkZXJGaWxlRGVsZXRlUG9saWN5LmpzIiwic291cmNlUm9vdCI6Im5nOi8va2FsdHVyYS1uZ3gtY2xpZW50LyIsInNvdXJjZXMiOlsibGliL2FwaS90eXBlcy9LYWx0dXJhRHJvcEZvbGRlckZpbGVEZWxldGVQb2xpY3kudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7O0lBR0ksYUFBWTtJQUNmLDZCQUE0QjtJQUM1QixlQUFjOzs7b0VBRlgsVUFBVTtvRUFDYiwwQkFBMEI7b0VBQzFCLFlBQVkiLCJzb3VyY2VzQ29udGVudCI6WyJcblxuZXhwb3J0IGVudW0gS2FsdHVyYURyb3BGb2xkZXJGaWxlRGVsZXRlUG9saWN5IHtcbiAgICBhdXRvRGVsZXRlPTIsXG5cdGF1dG9EZWxldGVXaGVuRW50cnlJc1JlYWR5PTMsXG5cdG1hbnVhbERlbGV0ZT0xXG59Il19

@@ -1,0 +1,16 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/** @enum {number} */
+const KalturaYouTubeApiDistributionCaptionAction = {
+    deleteAction: 3,
+    submitAction: 2,
+    updateAction: 1,
+};
+export { KalturaYouTubeApiDistributionCaptionAction };
+KalturaYouTubeApiDistributionCaptionAction[KalturaYouTubeApiDistributionCaptionAction.deleteAction] = 'deleteAction';
+KalturaYouTubeApiDistributionCaptionAction[KalturaYouTubeApiDistributionCaptionAction.submitAction] = 'submitAction';
+KalturaYouTubeApiDistributionCaptionAction[KalturaYouTubeApiDistributionCaptionAction.updateAction] = 'updateAction';
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiS2FsdHVyYVlvdVR1YmVBcGlEaXN0cmlidXRpb25DYXB0aW9uQWN0aW9uLmpzIiwic291cmNlUm9vdCI6Im5nOi8va2FsdHVyYS1uZ3gtY2xpZW50LyIsInNvdXJjZXMiOlsibGliL2FwaS90eXBlcy9LYWx0dXJhWW91VHViZUFwaURpc3RyaWJ1dGlvbkNhcHRpb25BY3Rpb24udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7O0lBR0ksZUFBYztJQUNqQixlQUFjO0lBQ2QsZUFBYzs7O3NGQUZYLFlBQVk7c0ZBQ2YsWUFBWTtzRkFDWixZQUFZIiwic291cmNlc0NvbnRlbnQiOlsiXG5cbmV4cG9ydCBlbnVtIEthbHR1cmFZb3VUdWJlQXBpRGlzdHJpYnV0aW9uQ2FwdGlvbkFjdGlvbiB7XG4gICAgZGVsZXRlQWN0aW9uPTMsXG5cdHN1Ym1pdEFjdGlvbj0yLFxuXHR1cGRhdGVBY3Rpb249MVxufSJdfQ==

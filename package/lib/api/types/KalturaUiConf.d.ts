@@ -1,0 +1,51 @@
+import { KalturaObjectMetadata } from '../kaltura-object-base';
+import { KalturaUiConfObjType } from './KalturaUiConfObjType';
+import { KalturaUiConfCreationMode } from './KalturaUiConfCreationMode';
+import { KalturaObjectBase, KalturaObjectBaseArgs } from '../kaltura-object-base';
+export interface KalturaUiConfArgs extends KalturaObjectBaseArgs {
+    name?: string;
+    description?: string;
+    objType?: KalturaUiConfObjType;
+    width?: number;
+    height?: number;
+    htmlParams?: string;
+    swfUrl?: string;
+    confFile?: string;
+    confFileFeatures?: string;
+    config?: string;
+    confVars?: string;
+    useCdn?: boolean;
+    tags?: string;
+    swfUrlVersion?: string;
+    creationMode?: KalturaUiConfCreationMode;
+    html5Url?: string;
+    partnerTags?: string;
+}
+export declare class KalturaUiConf extends KalturaObjectBase {
+    readonly id: number;
+    name: string;
+    description: string;
+    readonly partnerId: number;
+    objType: KalturaUiConfObjType;
+    readonly objTypeAsString: string;
+    width: number;
+    height: number;
+    htmlParams: string;
+    swfUrl: string;
+    readonly confFilePath: string;
+    confFile: string;
+    confFileFeatures: string;
+    config: string;
+    confVars: string;
+    useCdn: boolean;
+    tags: string;
+    swfUrlVersion: string;
+    readonly createdAt: Date;
+    readonly updatedAt: Date;
+    creationMode: KalturaUiConfCreationMode;
+    html5Url: string;
+    readonly version: string;
+    partnerTags: string;
+    constructor(data?: KalturaUiConfArgs);
+    protected _getMetadata(): KalturaObjectMetadata;
+}

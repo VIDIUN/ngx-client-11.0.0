@@ -1,0 +1,51 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+import { typesMappingStorage } from '../kaltura-object-base';
+import { KalturaStringValue } from './KalturaStringValue';
+import { KalturaCategoryUserProviderFilter } from './KalturaCategoryUserProviderFilter';
+import { KalturaEmailNotificationRecipientProvider } from './KalturaEmailNotificationRecipientProvider';
+/**
+ * @record
+ */
+export function KalturaEmailNotificationCategoryRecipientProviderArgs() { }
+/** @type {?|undefined} */
+KalturaEmailNotificationCategoryRecipientProviderArgs.prototype.categoryId;
+/** @type {?|undefined} */
+KalturaEmailNotificationCategoryRecipientProviderArgs.prototype.categoryIds;
+/** @type {?|undefined} */
+KalturaEmailNotificationCategoryRecipientProviderArgs.prototype.categoryUserFilter;
+export class KalturaEmailNotificationCategoryRecipientProvider extends KalturaEmailNotificationRecipientProvider {
+    /**
+     * @param {?=} data
+     */
+    constructor(data) {
+        super(data);
+    }
+    /**
+     * @return {?}
+     */
+    _getMetadata() {
+        /** @type {?} */
+        const result = super._getMetadata();
+        Object.assign(result.properties, {
+            objectType: { type: 'c', default: 'KalturaEmailNotificationCategoryRecipientProvider' },
+            categoryId: { type: 'o', subTypeConstructor: KalturaStringValue, subType: 'KalturaStringValue' },
+            categoryIds: { type: 'o', subTypeConstructor: KalturaStringValue, subType: 'KalturaStringValue' },
+            categoryUserFilter: { type: 'o', subTypeConstructor: KalturaCategoryUserProviderFilter, subType: 'KalturaCategoryUserProviderFilter' }
+        });
+        return result;
+    }
+}
+if (false) {
+    /** @type {?} */
+    KalturaEmailNotificationCategoryRecipientProvider.prototype.categoryId;
+    /** @type {?} */
+    KalturaEmailNotificationCategoryRecipientProvider.prototype.categoryIds;
+    /** @type {?} */
+    KalturaEmailNotificationCategoryRecipientProvider.prototype.categoryUserFilter;
+}
+typesMappingStorage['KalturaEmailNotificationCategoryRecipientProvider'] = KalturaEmailNotificationCategoryRecipientProvider;
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiS2FsdHVyYUVtYWlsTm90aWZpY2F0aW9uQ2F0ZWdvcnlSZWNpcGllbnRQcm92aWRlci5qcyIsInNvdXJjZVJvb3QiOiJuZzovL2thbHR1cmEtbmd4LWNsaWVudC8iLCJzb3VyY2VzIjpbImxpYi9hcGkvdHlwZXMvS2FsdHVyYUVtYWlsTm90aWZpY2F0aW9uQ2F0ZWdvcnlSZWNpcGllbnRQcm92aWRlci50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7O0FBQ0EsT0FBTyxFQUF5QixtQkFBbUIsRUFBRSxNQUFNLHdCQUF3QixDQUFDO0FBQ3BGLE9BQU8sRUFBRSxrQkFBa0IsRUFBRSxNQUFNLHNCQUFzQixDQUFDO0FBQzFELE9BQU8sRUFBRSxpQ0FBaUMsRUFBRSxNQUFNLHFDQUFxQyxDQUFDO0FBQ3hGLE9BQU8sRUFBRSx5Q0FBeUMsRUFBaUQsTUFBTSw2Q0FBNkMsQ0FBQzs7Ozs7Ozs7Ozs7QUFTdkosTUFBTSx3REFBeUQsU0FBUSx5Q0FBeUM7Ozs7SUFNNUcsWUFBWSxJQUE2RDtRQUVyRSxLQUFLLENBQUMsSUFBSSxDQUFDLENBQUM7S0FDZjs7OztJQUVTLFlBQVk7O1FBRWxCLE1BQU0sTUFBTSxHQUFHLEtBQUssQ0FBQyxZQUFZLEVBQUUsQ0FBQztRQUNwQyxNQUFNLENBQUMsTUFBTSxDQUNULE1BQU0sQ0FBQyxVQUFVLEVBQ2pCO1lBQ0ksVUFBVSxFQUFHLEVBQUUsSUFBSSxFQUFHLEdBQUcsRUFBRSxPQUFPLEVBQUcsbURBQW1ELEVBQUU7WUFDdEcsVUFBVSxFQUFHLEVBQUUsSUFBSSxFQUFHLEdBQUcsRUFBRSxrQkFBa0IsRUFBRyxrQkFBa0IsRUFBRSxPQUFPLEVBQUcsb0JBQW9CLEVBQUU7WUFDcEcsV0FBVyxFQUFHLEVBQUUsSUFBSSxFQUFHLEdBQUcsRUFBRSxrQkFBa0IsRUFBRyxrQkFBa0IsRUFBRSxPQUFPLEVBQUcsb0JBQW9CLEVBQUU7WUFDckcsa0JBQWtCLEVBQUcsRUFBRSxJQUFJLEVBQUcsR0FBRyxFQUFFLGtCQUFrQixFQUFHLGlDQUFpQyxFQUFFLE9BQU8sRUFBRyxtQ0FBbUMsRUFBRTtTQUNqSSxDQUNKLENBQUM7UUFDRixNQUFNLENBQUMsTUFBTSxDQUFDO0tBQ2pCO0NBQ0o7Ozs7Ozs7OztBQUVELG1CQUFtQixDQUFDLG1EQUFtRCxDQUFDLEdBQUcsaURBQWlELENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJcbmltcG9ydCB7IEthbHR1cmFPYmplY3RNZXRhZGF0YSwgdHlwZXNNYXBwaW5nU3RvcmFnZSB9IGZyb20gJy4uL2thbHR1cmEtb2JqZWN0LWJhc2UnO1xuaW1wb3J0IHsgS2FsdHVyYVN0cmluZ1ZhbHVlIH0gZnJvbSAnLi9LYWx0dXJhU3RyaW5nVmFsdWUnO1xuaW1wb3J0IHsgS2FsdHVyYUNhdGVnb3J5VXNlclByb3ZpZGVyRmlsdGVyIH0gZnJvbSAnLi9LYWx0dXJhQ2F0ZWdvcnlVc2VyUHJvdmlkZXJGaWx0ZXInO1xuaW1wb3J0IHsgS2FsdHVyYUVtYWlsTm90aWZpY2F0aW9uUmVjaXBpZW50UHJvdmlkZXIsIEthbHR1cmFFbWFpbE5vdGlmaWNhdGlvblJlY2lwaWVudFByb3ZpZGVyQXJncyB9IGZyb20gJy4vS2FsdHVyYUVtYWlsTm90aWZpY2F0aW9uUmVjaXBpZW50UHJvdmlkZXInO1xuXG5leHBvcnQgaW50ZXJmYWNlIEthbHR1cmFFbWFpbE5vdGlmaWNhdGlvbkNhdGVnb3J5UmVjaXBpZW50UHJvdmlkZXJBcmdzICBleHRlbmRzIEthbHR1cmFFbWFpbE5vdGlmaWNhdGlvblJlY2lwaWVudFByb3ZpZGVyQXJncyB7XG4gICAgY2F0ZWdvcnlJZD8gOiBLYWx0dXJhU3RyaW5nVmFsdWU7XG5cdGNhdGVnb3J5SWRzPyA6IEthbHR1cmFTdHJpbmdWYWx1ZTtcblx0Y2F0ZWdvcnlVc2VyRmlsdGVyPyA6IEthbHR1cmFDYXRlZ29yeVVzZXJQcm92aWRlckZpbHRlcjtcbn1cblxuXG5leHBvcnQgY2xhc3MgS2FsdHVyYUVtYWlsTm90aWZpY2F0aW9uQ2F0ZWdvcnlSZWNpcGllbnRQcm92aWRlciBleHRlbmRzIEthbHR1cmFFbWFpbE5vdGlmaWNhdGlvblJlY2lwaWVudFByb3ZpZGVyIHtcblxuICAgIGNhdGVnb3J5SWQgOiBLYWx0dXJhU3RyaW5nVmFsdWU7XG5cdGNhdGVnb3J5SWRzIDogS2FsdHVyYVN0cmluZ1ZhbHVlO1xuXHRjYXRlZ29yeVVzZXJGaWx0ZXIgOiBLYWx0dXJhQ2F0ZWdvcnlVc2VyUHJvdmlkZXJGaWx0ZXI7XG5cbiAgICBjb25zdHJ1Y3RvcihkYXRhPyA6IEthbHR1cmFFbWFpbE5vdGlmaWNhdGlvbkNhdGVnb3J5UmVjaXBpZW50UHJvdmlkZXJBcmdzKVxuICAgIHtcbiAgICAgICAgc3VwZXIoZGF0YSk7XG4gICAgfVxuXG4gICAgcHJvdGVjdGVkIF9nZXRNZXRhZGF0YSgpIDogS2FsdHVyYU9iamVjdE1ldGFkYXRhXG4gICAge1xuICAgICAgICBjb25zdCByZXN1bHQgPSBzdXBlci5fZ2V0TWV0YWRhdGEoKTtcbiAgICAgICAgT2JqZWN0LmFzc2lnbihcbiAgICAgICAgICAgIHJlc3VsdC5wcm9wZXJ0aWVzLFxuICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgIG9iamVjdFR5cGUgOiB7IHR5cGUgOiAnYycsIGRlZmF1bHQgOiAnS2FsdHVyYUVtYWlsTm90aWZpY2F0aW9uQ2F0ZWdvcnlSZWNpcGllbnRQcm92aWRlcicgfSxcblx0XHRcdFx0Y2F0ZWdvcnlJZCA6IHsgdHlwZSA6ICdvJywgc3ViVHlwZUNvbnN0cnVjdG9yIDogS2FsdHVyYVN0cmluZ1ZhbHVlLCBzdWJUeXBlIDogJ0thbHR1cmFTdHJpbmdWYWx1ZScgfSxcblx0XHRcdFx0Y2F0ZWdvcnlJZHMgOiB7IHR5cGUgOiAnbycsIHN1YlR5cGVDb25zdHJ1Y3RvciA6IEthbHR1cmFTdHJpbmdWYWx1ZSwgc3ViVHlwZSA6ICdLYWx0dXJhU3RyaW5nVmFsdWUnIH0sXG5cdFx0XHRcdGNhdGVnb3J5VXNlckZpbHRlciA6IHsgdHlwZSA6ICdvJywgc3ViVHlwZUNvbnN0cnVjdG9yIDogS2FsdHVyYUNhdGVnb3J5VXNlclByb3ZpZGVyRmlsdGVyLCBzdWJUeXBlIDogJ0thbHR1cmFDYXRlZ29yeVVzZXJQcm92aWRlckZpbHRlcicgfVxuICAgICAgICAgICAgfVxuICAgICAgICApO1xuICAgICAgICByZXR1cm4gcmVzdWx0O1xuICAgIH1cbn1cblxudHlwZXNNYXBwaW5nU3RvcmFnZVsnS2FsdHVyYUVtYWlsTm90aWZpY2F0aW9uQ2F0ZWdvcnlSZWNpcGllbnRQcm92aWRlciddID0gS2FsdHVyYUVtYWlsTm90aWZpY2F0aW9uQ2F0ZWdvcnlSZWNpcGllbnRQcm92aWRlcjsiXX0=

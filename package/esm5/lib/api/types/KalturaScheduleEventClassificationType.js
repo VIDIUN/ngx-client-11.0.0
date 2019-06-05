@@ -1,0 +1,16 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/** @enum {number} */
+var KalturaScheduleEventClassificationType = {
+    confidentialEvent: 3,
+    privateEvent: 2,
+    publicEvent: 1,
+};
+export { KalturaScheduleEventClassificationType };
+KalturaScheduleEventClassificationType[KalturaScheduleEventClassificationType.confidentialEvent] = 'confidentialEvent';
+KalturaScheduleEventClassificationType[KalturaScheduleEventClassificationType.privateEvent] = 'privateEvent';
+KalturaScheduleEventClassificationType[KalturaScheduleEventClassificationType.publicEvent] = 'publicEvent';
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiS2FsdHVyYVNjaGVkdWxlRXZlbnRDbGFzc2lmaWNhdGlvblR5cGUuanMiLCJzb3VyY2VSb290Ijoibmc6Ly9rYWx0dXJhLW5neC1jbGllbnQvIiwic291cmNlcyI6WyJsaWIvYXBpL3R5cGVzL0thbHR1cmFTY2hlZHVsZUV2ZW50Q2xhc3NpZmljYXRpb25UeXBlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7OztJQUdJLG9CQUFtQjtJQUN0QixlQUFjO0lBQ2QsY0FBYTs7OzhFQUZWLGlCQUFpQjs4RUFDcEIsWUFBWTs4RUFDWixXQUFXIiwic291cmNlc0NvbnRlbnQiOlsiXG5cbmV4cG9ydCBlbnVtIEthbHR1cmFTY2hlZHVsZUV2ZW50Q2xhc3NpZmljYXRpb25UeXBlIHtcbiAgICBjb25maWRlbnRpYWxFdmVudD0zLFxuXHRwcml2YXRlRXZlbnQ9Mixcblx0cHVibGljRXZlbnQ9MVxufSJdfQ==

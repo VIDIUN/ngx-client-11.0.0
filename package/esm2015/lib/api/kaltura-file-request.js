@@ -1,0 +1,19 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+import { KalturaRequest } from './kaltura-request';
+/**
+ * @record
+ */
+export function KalturaFileRequestArgs() { }
+export class KalturaFileRequest extends KalturaRequest {
+    /**
+     * @param {?} data
+     */
+    constructor(data) {
+        super(data, { responseType: 'v', responseSubType: '', responseConstructor: null });
+    }
+}
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoia2FsdHVyYS1maWxlLXJlcXVlc3QuanMiLCJzb3VyY2VSb290Ijoibmc6Ly9rYWx0dXJhLW5neC1jbGllbnQvIiwic291cmNlcyI6WyJsaWIvYXBpL2thbHR1cmEtZmlsZS1yZXF1ZXN0LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7QUFFQSxPQUFPLEVBQUUsY0FBYyxFQUFzQixNQUFNLG1CQUFtQixDQUFDOzs7OztBQU92RSxNQUFNLHlCQUEwQixTQUFRLGNBQTZCOzs7O0lBRWpFLFlBQVksSUFBNEI7UUFDcEMsS0FBSyxDQUFDLElBQUksRUFBRSxFQUFDLFlBQVksRUFBRyxHQUFHLEVBQUUsZUFBZSxFQUFHLEVBQUUsRUFBRSxtQkFBbUIsRUFBRyxJQUFJLEVBQUUsQ0FBQyxDQUFDO0tBQ3hGO0NBRUoiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBLYWx0dXJhT2JqZWN0QmFzZSB9IGZyb20gXCIuL2thbHR1cmEtb2JqZWN0LWJhc2VcIjtcbmltcG9ydCB7IEthbHR1cmFSZXF1ZXN0QmFzZSwgS2FsdHVyYVJlcXVlc3RCYXNlQXJncyB9IGZyb20gJy4va2FsdHVyYS1yZXF1ZXN0LWJhc2UnO1xuaW1wb3J0IHsgS2FsdHVyYVJlcXVlc3QsIEthbHR1cmFSZXF1ZXN0QXJncyB9IGZyb20gJy4va2FsdHVyYS1yZXF1ZXN0JztcblxuXG5cbmV4cG9ydCBpbnRlcmZhY2UgS2FsdHVyYUZpbGVSZXF1ZXN0QXJncyBleHRlbmRzIEthbHR1cmFSZXF1ZXN0QXJncyAge1xufVxuXG5leHBvcnQgY2xhc3MgS2FsdHVyYUZpbGVSZXF1ZXN0IGV4dGVuZHMgS2FsdHVyYVJlcXVlc3Q8e3VybDogc3RyaW5nfT4ge1xuXG4gICAgY29uc3RydWN0b3IoZGF0YTogS2FsdHVyYUZpbGVSZXF1ZXN0QXJncykge1xuICAgICAgICBzdXBlcihkYXRhLCB7cmVzcG9uc2VUeXBlIDogJ3YnLCByZXNwb25zZVN1YlR5cGUgOiAnJywgcmVzcG9uc2VDb25zdHJ1Y3RvciA6IG51bGwgfSk7XG4gICAgfVxuXG59Il19

@@ -1,0 +1,16 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/** @enum {number} */
+const KalturaDailymotionDistributionCaptionAction = {
+    deleteAction: 3,
+    submitAction: 2,
+    updateAction: 1,
+};
+export { KalturaDailymotionDistributionCaptionAction };
+KalturaDailymotionDistributionCaptionAction[KalturaDailymotionDistributionCaptionAction.deleteAction] = 'deleteAction';
+KalturaDailymotionDistributionCaptionAction[KalturaDailymotionDistributionCaptionAction.submitAction] = 'submitAction';
+KalturaDailymotionDistributionCaptionAction[KalturaDailymotionDistributionCaptionAction.updateAction] = 'updateAction';
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiS2FsdHVyYURhaWx5bW90aW9uRGlzdHJpYnV0aW9uQ2FwdGlvbkFjdGlvbi5qcyIsInNvdXJjZVJvb3QiOiJuZzovL2thbHR1cmEtbmd4LWNsaWVudC8iLCJzb3VyY2VzIjpbImxpYi9hcGkvdHlwZXMvS2FsdHVyYURhaWx5bW90aW9uRGlzdHJpYnV0aW9uQ2FwdGlvbkFjdGlvbi50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7SUFHSSxlQUFjO0lBQ2pCLGVBQWM7SUFDZCxlQUFjOzs7d0ZBRlgsWUFBWTt3RkFDZixZQUFZO3dGQUNaLFlBQVkiLCJzb3VyY2VzQ29udGVudCI6WyJcblxuZXhwb3J0IGVudW0gS2FsdHVyYURhaWx5bW90aW9uRGlzdHJpYnV0aW9uQ2FwdGlvbkFjdGlvbiB7XG4gICAgZGVsZXRlQWN0aW9uPTMsXG5cdHN1Ym1pdEFjdGlvbj0yLFxuXHR1cGRhdGVBY3Rpb249MVxufSJdfQ==

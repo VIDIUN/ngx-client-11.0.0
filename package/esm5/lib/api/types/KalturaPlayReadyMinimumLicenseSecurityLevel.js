@@ -1,0 +1,14 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/** @enum {number} */
+var KalturaPlayReadyMinimumLicenseSecurityLevel = {
+    commercialQuality: 2000,
+    nonCommercialQuality: 150,
+};
+export { KalturaPlayReadyMinimumLicenseSecurityLevel };
+KalturaPlayReadyMinimumLicenseSecurityLevel[KalturaPlayReadyMinimumLicenseSecurityLevel.commercialQuality] = 'commercialQuality';
+KalturaPlayReadyMinimumLicenseSecurityLevel[KalturaPlayReadyMinimumLicenseSecurityLevel.nonCommercialQuality] = 'nonCommercialQuality';
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiS2FsdHVyYVBsYXlSZWFkeU1pbmltdW1MaWNlbnNlU2VjdXJpdHlMZXZlbC5qcyIsInNvdXJjZVJvb3QiOiJuZzovL2thbHR1cmEtbmd4LWNsaWVudC8iLCJzb3VyY2VzIjpbImxpYi9hcGkvdHlwZXMvS2FsdHVyYVBsYXlSZWFkeU1pbmltdW1MaWNlbnNlU2VjdXJpdHlMZXZlbC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7SUFHSSx1QkFBc0I7SUFDekIseUJBQXdCOzs7d0ZBRHJCLGlCQUFpQjt3RkFDcEIsb0JBQW9CIiwic291cmNlc0NvbnRlbnQiOlsiXG5cbmV4cG9ydCBlbnVtIEthbHR1cmFQbGF5UmVhZHlNaW5pbXVtTGljZW5zZVNlY3VyaXR5TGV2ZWwge1xuICAgIGNvbW1lcmNpYWxRdWFsaXR5PTIwMDAsXG5cdG5vbkNvbW1lcmNpYWxRdWFsaXR5PTE1MFxufSJdfQ==

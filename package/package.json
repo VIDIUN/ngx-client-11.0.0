@@ -1,0 +1,41 @@
+{
+	"name": "kaltura-ngx-client",
+	"private": true,
+	"version": "11.0.0-v20180801-143654",
+	"description": "Kaltura Angular based client",
+	"keywords": [
+		"Kaltura"
+	],
+	"license": "AGPL-3.0",
+	"author": "https://github.com/kaltura-ng/graphs/contributors",
+	"contributors": [
+		{
+			"name": "Eran Sakal",
+			"email": "eran@sakalim.com"
+		},
+		{
+			"name": "Amir Chervinsky",
+			"email": "amir.chr@gmail.com"
+		}
+	],
+	"peerdependencies": {
+		"@angular/core": "^5.2.0",
+		"@angular/common": "^5.2.0"
+	},
+	"main": "bundles/kaltura-ngx-client.umd.js",
+	"module": "fesm5/kaltura-ngx-client.js",
+	"es2015": "fesm2015/kaltura-ngx-client.js",
+	"esm5": "esm5/kaltura-ngx-client.js",
+	"esm2015": "esm2015/kaltura-ngx-client.js",
+	"fesm5": "fesm5/kaltura-ngx-client.js",
+	"fesm2015": "fesm2015/kaltura-ngx-client.js",
+	"typings": "kaltura-ngx-client.d.ts",
+	"metadata": "kaltura-ngx-client.metadata.json",
+	"sideEffects": false,
+	"dependencies": {},
+	"devDependencies": {},
+	"peerDependencies": {
+		"tslib": "^1.9.0"
+	},
+	"scripts": {}
+}

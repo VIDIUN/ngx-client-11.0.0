@@ -1,0 +1,21 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/** @enum {string} */
+var KalturaObjectTaskType = {
+    convertEntryFlavors: '4',
+    deleteEntry: '1',
+    deleteEntryFlavors: '3',
+    deleteLocalContent: '5',
+    dispatchEventNotification: 'scheduledTaskEventNotification.DispatchEventNotification',
+    distribute: 'scheduledTaskContentDistribution.Distribute',
+    executeMetadataXslt: 'scheduledTaskMetadata.ExecuteMetadataXslt',
+    mailNotification: '8',
+    modifyCategories: '2',
+    modifyEntry: '7',
+    storageExport: '6',
+};
+export { KalturaObjectTaskType };
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiS2FsdHVyYU9iamVjdFRhc2tUeXBlLmpzIiwic291cmNlUm9vdCI6Im5nOi8va2FsdHVyYS1uZ3gtY2xpZW50LyIsInNvdXJjZXMiOlsibGliL2FwaS90eXBlcy9LYWx0dXJhT2JqZWN0VGFza1R5cGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7O0lBR0kscUJBQXNCLEdBQUc7SUFDNUIsYUFBYyxHQUFHO0lBQ2pCLG9CQUFxQixHQUFHO0lBQ3hCLG9CQUFxQixHQUFHO0lBQ3hCLDJCQUE0QiwwREFBMEQ7SUFDdEYsWUFBYSw2Q0FBNkM7SUFDMUQscUJBQXNCLDJDQUEyQztJQUNqRSxrQkFBbUIsR0FBRztJQUN0QixrQkFBbUIsR0FBRztJQUN0QixhQUFjLEdBQUc7SUFDakIsZUFBZ0IsR0FBRyIsInNvdXJjZXNDb250ZW50IjpbIlxuXG5leHBvcnQgZW51bSBLYWx0dXJhT2JqZWN0VGFza1R5cGUge1xuICAgIGNvbnZlcnRFbnRyeUZsYXZvcnMgPSAnNCcsXG5cdGRlbGV0ZUVudHJ5ID0gJzEnLFxuXHRkZWxldGVFbnRyeUZsYXZvcnMgPSAnMycsXG5cdGRlbGV0ZUxvY2FsQ29udGVudCA9ICc1Jyxcblx0ZGlzcGF0Y2hFdmVudE5vdGlmaWNhdGlvbiA9ICdzY2hlZHVsZWRUYXNrRXZlbnROb3RpZmljYXRpb24uRGlzcGF0Y2hFdmVudE5vdGlmaWNhdGlvbicsXG5cdGRpc3RyaWJ1dGUgPSAnc2NoZWR1bGVkVGFza0NvbnRlbnREaXN0cmlidXRpb24uRGlzdHJpYnV0ZScsXG5cdGV4ZWN1dGVNZXRhZGF0YVhzbHQgPSAnc2NoZWR1bGVkVGFza01ldGFkYXRhLkV4ZWN1dGVNZXRhZGF0YVhzbHQnLFxuXHRtYWlsTm90aWZpY2F0aW9uID0gJzgnLFxuXHRtb2RpZnlDYXRlZ29yaWVzID0gJzInLFxuXHRtb2RpZnlFbnRyeSA9ICc3Jyxcblx0c3RvcmFnZUV4cG9ydCA9ICc2J1xufSJdfQ==

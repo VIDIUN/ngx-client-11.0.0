@@ -1,0 +1,25 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/** @enum {string} */
+var KalturaFileSyncObjectType = {
+    asset: '4',
+    batchjob: '3',
+    conversionProfile: '8',
+    distributionProfile: 'contentDistribution.DistributionProfile',
+    emailNotificationTemplate: 'emailNotification.EmailNotificationTemplate',
+    entry: '1',
+    entryDistribution: 'contentDistribution.EntryDistribution',
+    fileAsset: '9',
+    flavorAsset: '4',
+    genericDistributionAction: 'contentDistribution.GenericDistributionAction',
+    httpNotificationTemplate: 'httpNotification.HttpNotificationTemplate',
+    metadata: '5',
+    metadataProfile: '6',
+    syndicationFeed: '7',
+    uiconf: '2',
+};
+export { KalturaFileSyncObjectType };
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiS2FsdHVyYUZpbGVTeW5jT2JqZWN0VHlwZS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL2thbHR1cmEtbmd4LWNsaWVudC8iLCJzb3VyY2VzIjpbImxpYi9hcGkvdHlwZXMvS2FsdHVyYUZpbGVTeW5jT2JqZWN0VHlwZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7SUFHSSxPQUFRLEdBQUc7SUFDZCxVQUFXLEdBQUc7SUFDZCxtQkFBb0IsR0FBRztJQUN2QixxQkFBc0IseUNBQXlDO0lBQy9ELDJCQUE0Qiw2Q0FBNkM7SUFDekUsT0FBUSxHQUFHO0lBQ1gsbUJBQW9CLHVDQUF1QztJQUMzRCxXQUFZLEdBQUc7SUFDZixhQUFjLEdBQUc7SUFDakIsMkJBQTRCLCtDQUErQztJQUMzRSwwQkFBMkIsMkNBQTJDO0lBQ3RFLFVBQVcsR0FBRztJQUNkLGlCQUFrQixHQUFHO0lBQ3JCLGlCQUFrQixHQUFHO0lBQ3JCLFFBQVMsR0FBRyIsInNvdXJjZXNDb250ZW50IjpbIlxuXG5leHBvcnQgZW51bSBLYWx0dXJhRmlsZVN5bmNPYmplY3RUeXBlIHtcbiAgICBhc3NldCA9ICc0Jyxcblx0YmF0Y2hqb2IgPSAnMycsXG5cdGNvbnZlcnNpb25Qcm9maWxlID0gJzgnLFxuXHRkaXN0cmlidXRpb25Qcm9maWxlID0gJ2NvbnRlbnREaXN0cmlidXRpb24uRGlzdHJpYnV0aW9uUHJvZmlsZScsXG5cdGVtYWlsTm90aWZpY2F0aW9uVGVtcGxhdGUgPSAnZW1haWxOb3RpZmljYXRpb24uRW1haWxOb3RpZmljYXRpb25UZW1wbGF0ZScsXG5cdGVudHJ5ID0gJzEnLFxuXHRlbnRyeURpc3RyaWJ1dGlvbiA9ICdjb250ZW50RGlzdHJpYnV0aW9uLkVudHJ5RGlzdHJpYnV0aW9uJyxcblx0ZmlsZUFzc2V0ID0gJzknLFxuXHRmbGF2b3JBc3NldCA9ICc0Jyxcblx0Z2VuZXJpY0Rpc3RyaWJ1dGlvbkFjdGlvbiA9ICdjb250ZW50RGlzdHJpYnV0aW9uLkdlbmVyaWNEaXN0cmlidXRpb25BY3Rpb24nLFxuXHRodHRwTm90aWZpY2F0aW9uVGVtcGxhdGUgPSAnaHR0cE5vdGlmaWNhdGlvbi5IdHRwTm90aWZpY2F0aW9uVGVtcGxhdGUnLFxuXHRtZXRhZGF0YSA9ICc1Jyxcblx0bWV0YWRhdGFQcm9maWxlID0gJzYnLFxuXHRzeW5kaWNhdGlvbkZlZWQgPSAnNycsXG5cdHVpY29uZiA9ICcyJ1xufSJdfQ==

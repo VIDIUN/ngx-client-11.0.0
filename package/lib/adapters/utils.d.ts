@@ -1,0 +1,11 @@
+import { KalturaRequestBase } from '../api/kaltura-request-base';
+import { KalturaClientOptions } from '../kaltura-client-options';
+import { KalturaRequestOptions } from '../api/kaltura-request-options';
+import { KalturaMultiRequest } from '../api/kaltura-multi-request';
+import { KalturaRequest } from '../api/kaltura-request';
+import { KalturaFileRequest } from '../api/kaltura-file-request';
+export declare function createEndpoint(request: KalturaRequestBase, options: KalturaClientOptions, service: string, action?: string): string;
+export declare function createClientTag(request: KalturaRequestBase, options: KalturaClientOptions): string;
+export declare function buildUrl(url: string, querystring: {}): string;
+export declare function getHeaders(): any;
+export declare function prepareParameters(request: KalturaRequest<any> | KalturaMultiRequest | KalturaFileRequest, options: KalturaClientOptions, defaultRequestOptions: KalturaRequestOptions): any;

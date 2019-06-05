@@ -1,0 +1,36 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+import * as tslib_1 from "tslib";
+import { typesMappingStorage } from '../kaltura-object-base';
+import { KalturaUverseClickToOrderDistributionProfileBaseFilter } from './KalturaUverseClickToOrderDistributionProfileBaseFilter';
+/**
+ * @record
+ */
+export function KalturaUverseClickToOrderDistributionProfileFilterArgs() { }
+var KalturaUverseClickToOrderDistributionProfileFilter = /** @class */ (function (_super) {
+    tslib_1.__extends(KalturaUverseClickToOrderDistributionProfileFilter, _super);
+    function KalturaUverseClickToOrderDistributionProfileFilter(data) {
+        return _super.call(this, data) || this;
+    }
+    /**
+     * @return {?}
+     */
+    KalturaUverseClickToOrderDistributionProfileFilter.prototype._getMetadata = /**
+     * @return {?}
+     */
+    function () {
+        /** @type {?} */
+        var result = _super.prototype._getMetadata.call(this);
+        Object.assign(result.properties, {
+            objectType: { type: 'c', default: 'KalturaUverseClickToOrderDistributionProfileFilter' }
+        });
+        return result;
+    };
+    return KalturaUverseClickToOrderDistributionProfileFilter;
+}(KalturaUverseClickToOrderDistributionProfileBaseFilter));
+export { KalturaUverseClickToOrderDistributionProfileFilter };
+typesMappingStorage['KalturaUverseClickToOrderDistributionProfileFilter'] = KalturaUverseClickToOrderDistributionProfileFilter;
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiS2FsdHVyYVV2ZXJzZUNsaWNrVG9PcmRlckRpc3RyaWJ1dGlvblByb2ZpbGVGaWx0ZXIuanMiLCJzb3VyY2VSb290Ijoibmc6Ly9rYWx0dXJhLW5neC1jbGllbnQvIiwic291cmNlcyI6WyJsaWIvYXBpL3R5cGVzL0thbHR1cmFVdmVyc2VDbGlja1RvT3JkZXJEaXN0cmlidXRpb25Qcm9maWxlRmlsdGVyLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7O0FBQ0EsT0FBTyxFQUF5QixtQkFBbUIsRUFBRSxNQUFNLHdCQUF3QixDQUFDO0FBQ3BGLE9BQU8sRUFBRSxzREFBc0QsRUFBOEQsTUFBTSwwREFBMEQsQ0FBQzs7Ozs7QUFPOUwsSUFBQTtJQUF3RSw4RUFBc0Q7SUFJMUgsNERBQVksSUFBOEQ7ZUFFdEUsa0JBQU0sSUFBSSxDQUFDO0tBQ2Q7Ozs7SUFFUyx5RUFBWTs7O0lBQXRCOztRQUVJLElBQU0sTUFBTSxHQUFHLGlCQUFNLFlBQVksV0FBRSxDQUFDO1FBQ3BDLE1BQU0sQ0FBQyxNQUFNLENBQ1QsTUFBTSxDQUFDLFVBQVUsRUFDakI7WUFDSSxVQUFVLEVBQUcsRUFBRSxJQUFJLEVBQUcsR0FBRyxFQUFFLE9BQU8sRUFBRyxvREFBb0QsRUFBRTtTQUM5RixDQUNKLENBQUM7UUFDRixNQUFNLENBQUMsTUFBTSxDQUFDO0tBQ2pCOzZEQTVCTDtFQVN3RSxzREFBc0QsRUFvQjdILENBQUE7QUFwQkQsOERBb0JDO0FBRUQsbUJBQW1CLENBQUMsb0RBQW9ELENBQUMsR0FBRyxrREFBa0QsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIlxuaW1wb3J0IHsgS2FsdHVyYU9iamVjdE1ldGFkYXRhLCB0eXBlc01hcHBpbmdTdG9yYWdlIH0gZnJvbSAnLi4va2FsdHVyYS1vYmplY3QtYmFzZSc7XG5pbXBvcnQgeyBLYWx0dXJhVXZlcnNlQ2xpY2tUb09yZGVyRGlzdHJpYnV0aW9uUHJvZmlsZUJhc2VGaWx0ZXIsIEthbHR1cmFVdmVyc2VDbGlja1RvT3JkZXJEaXN0cmlidXRpb25Qcm9maWxlQmFzZUZpbHRlckFyZ3MgfSBmcm9tICcuL0thbHR1cmFVdmVyc2VDbGlja1RvT3JkZXJEaXN0cmlidXRpb25Qcm9maWxlQmFzZUZpbHRlcic7XG5cbmV4cG9ydCBpbnRlcmZhY2UgS2FsdHVyYVV2ZXJzZUNsaWNrVG9PcmRlckRpc3RyaWJ1dGlvblByb2ZpbGVGaWx0ZXJBcmdzICBleHRlbmRzIEthbHR1cmFVdmVyc2VDbGlja1RvT3JkZXJEaXN0cmlidXRpb25Qcm9maWxlQmFzZUZpbHRlckFyZ3Mge1xuICAgIFxufVxuXG5cbmV4cG9ydCBjbGFzcyBLYWx0dXJhVXZlcnNlQ2xpY2tUb09yZGVyRGlzdHJpYnV0aW9uUHJvZmlsZUZpbHRlciBleHRlbmRzIEthbHR1cmFVdmVyc2VDbGlja1RvT3JkZXJEaXN0cmlidXRpb25Qcm9maWxlQmFzZUZpbHRlciB7XG5cbiAgICBcblxuICAgIGNvbnN0cnVjdG9yKGRhdGE/IDogS2FsdHVyYVV2ZXJzZUNsaWNrVG9PcmRlckRpc3RyaWJ1dGlvblByb2ZpbGVGaWx0ZXJBcmdzKVxuICAgIHtcbiAgICAgICAgc3VwZXIoZGF0YSk7XG4gICAgfVxuXG4gICAgcHJvdGVjdGVkIF9nZXRNZXRhZGF0YSgpIDogS2FsdHVyYU9iamVjdE1ldGFkYXRhXG4gICAge1xuICAgICAgICBjb25zdCByZXN1bHQgPSBzdXBlci5fZ2V0TWV0YWRhdGEoKTtcbiAgICAgICAgT2JqZWN0LmFzc2lnbihcbiAgICAgICAgICAgIHJlc3VsdC5wcm9wZXJ0aWVzLFxuICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgIG9iamVjdFR5cGUgOiB7IHR5cGUgOiAnYycsIGRlZmF1bHQgOiAnS2FsdHVyYVV2ZXJzZUNsaWNrVG9PcmRlckRpc3RyaWJ1dGlvblByb2ZpbGVGaWx0ZXInIH1cbiAgICAgICAgICAgIH1cbiAgICAgICAgKTtcbiAgICAgICAgcmV0dXJuIHJlc3VsdDtcbiAgICB9XG59XG5cbnR5cGVzTWFwcGluZ1N0b3JhZ2VbJ0thbHR1cmFVdmVyc2VDbGlja1RvT3JkZXJEaXN0cmlidXRpb25Qcm9maWxlRmlsdGVyJ10gPSBLYWx0dXJhVXZlcnNlQ2xpY2tUb09yZGVyRGlzdHJpYnV0aW9uUHJvZmlsZUZpbHRlcjsiXX0=

@@ -1,0 +1,38 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+import { typesMappingStorage } from '../kaltura-object-base';
+import { KalturaTubeMogulSyndicationFeedCategories } from './KalturaTubeMogulSyndicationFeedCategories';
+import { KalturaBaseSyndicationFeed } from './KalturaBaseSyndicationFeed';
+/**
+ * @record
+ */
+export function KalturaTubeMogulSyndicationFeedArgs() { }
+export class KalturaTubeMogulSyndicationFeed extends KalturaBaseSyndicationFeed {
+    /**
+     * @param {?=} data
+     */
+    constructor(data) {
+        super(data);
+    }
+    /**
+     * @return {?}
+     */
+    _getMetadata() {
+        /** @type {?} */
+        const result = super._getMetadata();
+        Object.assign(result.properties, {
+            objectType: { type: 'c', default: 'KalturaTubeMogulSyndicationFeed' },
+            category: { type: 'es', readOnly: true, subTypeConstructor: KalturaTubeMogulSyndicationFeedCategories, subType: 'KalturaTubeMogulSyndicationFeedCategories' }
+        });
+        return result;
+    }
+}
+if (false) {
+    /** @type {?} */
+    KalturaTubeMogulSyndicationFeed.prototype.category;
+}
+typesMappingStorage['KalturaTubeMogulSyndicationFeed'] = KalturaTubeMogulSyndicationFeed;
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiS2FsdHVyYVR1YmVNb2d1bFN5bmRpY2F0aW9uRmVlZC5qcyIsInNvdXJjZVJvb3QiOiJuZzovL2thbHR1cmEtbmd4LWNsaWVudC8iLCJzb3VyY2VzIjpbImxpYi9hcGkvdHlwZXMvS2FsdHVyYVR1YmVNb2d1bFN5bmRpY2F0aW9uRmVlZC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7O0FBQ0EsT0FBTyxFQUF5QixtQkFBbUIsRUFBRSxNQUFNLHdCQUF3QixDQUFDO0FBQ3BGLE9BQU8sRUFBRSx5Q0FBeUMsRUFBRSxNQUFNLDZDQUE2QyxDQUFDO0FBQ3hHLE9BQU8sRUFBRSwwQkFBMEIsRUFBa0MsTUFBTSw4QkFBOEIsQ0FBQzs7Ozs7QUFPMUcsTUFBTSxzQ0FBdUMsU0FBUSwwQkFBMEI7Ozs7SUFJM0UsWUFBWSxJQUEyQztRQUVuRCxLQUFLLENBQUMsSUFBSSxDQUFDLENBQUM7S0FDZjs7OztJQUVTLFlBQVk7O1FBRWxCLE1BQU0sTUFBTSxHQUFHLEtBQUssQ0FBQyxZQUFZLEVBQUUsQ0FBQztRQUNwQyxNQUFNLENBQUMsTUFBTSxDQUNULE1BQU0sQ0FBQyxVQUFVLEVBQ2pCO1lBQ0ksVUFBVSxFQUFHLEVBQUUsSUFBSSxFQUFHLEdBQUcsRUFBRSxPQUFPLEVBQUcsaUNBQWlDLEVBQUU7WUFDcEYsUUFBUSxFQUFHLEVBQUUsSUFBSSxFQUFHLElBQUksRUFBRSxRQUFRLEVBQUcsSUFBSSxFQUFFLGtCQUFrQixFQUFHLHlDQUF5QyxFQUFFLE9BQU8sRUFBRywyQ0FBMkMsRUFBRTtTQUN6SixDQUNKLENBQUM7UUFDRixNQUFNLENBQUMsTUFBTSxDQUFDO0tBQ2pCO0NBQ0o7Ozs7O0FBRUQsbUJBQW1CLENBQUMsaUNBQWlDLENBQUMsR0FBRywrQkFBK0IsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIlxuaW1wb3J0IHsgS2FsdHVyYU9iamVjdE1ldGFkYXRhLCB0eXBlc01hcHBpbmdTdG9yYWdlIH0gZnJvbSAnLi4va2FsdHVyYS1vYmplY3QtYmFzZSc7XG5pbXBvcnQgeyBLYWx0dXJhVHViZU1vZ3VsU3luZGljYXRpb25GZWVkQ2F0ZWdvcmllcyB9IGZyb20gJy4vS2FsdHVyYVR1YmVNb2d1bFN5bmRpY2F0aW9uRmVlZENhdGVnb3JpZXMnO1xuaW1wb3J0IHsgS2FsdHVyYUJhc2VTeW5kaWNhdGlvbkZlZWQsIEthbHR1cmFCYXNlU3luZGljYXRpb25GZWVkQXJncyB9IGZyb20gJy4vS2FsdHVyYUJhc2VTeW5kaWNhdGlvbkZlZWQnO1xuXG5leHBvcnQgaW50ZXJmYWNlIEthbHR1cmFUdWJlTW9ndWxTeW5kaWNhdGlvbkZlZWRBcmdzICBleHRlbmRzIEthbHR1cmFCYXNlU3luZGljYXRpb25GZWVkQXJncyB7XG4gICAgXG59XG5cblxuZXhwb3J0IGNsYXNzIEthbHR1cmFUdWJlTW9ndWxTeW5kaWNhdGlvbkZlZWQgZXh0ZW5kcyBLYWx0dXJhQmFzZVN5bmRpY2F0aW9uRmVlZCB7XG5cbiAgICByZWFkb25seSBjYXRlZ29yeSA6IEthbHR1cmFUdWJlTW9ndWxTeW5kaWNhdGlvbkZlZWRDYXRlZ29yaWVzO1xuXG4gICAgY29uc3RydWN0b3IoZGF0YT8gOiBLYWx0dXJhVHViZU1vZ3VsU3luZGljYXRpb25GZWVkQXJncylcbiAgICB7XG4gICAgICAgIHN1cGVyKGRhdGEpO1xuICAgIH1cblxuICAgIHByb3RlY3RlZCBfZ2V0TWV0YWRhdGEoKSA6IEthbHR1cmFPYmplY3RNZXRhZGF0YVxuICAgIHtcbiAgICAgICAgY29uc3QgcmVzdWx0ID0gc3VwZXIuX2dldE1ldGFkYXRhKCk7XG4gICAgICAgIE9iamVjdC5hc3NpZ24oXG4gICAgICAgICAgICByZXN1bHQucHJvcGVydGllcyxcbiAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICBvYmplY3RUeXBlIDogeyB0eXBlIDogJ2MnLCBkZWZhdWx0IDogJ0thbHR1cmFUdWJlTW9ndWxTeW5kaWNhdGlvbkZlZWQnIH0sXG5cdFx0XHRcdGNhdGVnb3J5IDogeyB0eXBlIDogJ2VzJywgcmVhZE9ubHkgOiB0cnVlLCBzdWJUeXBlQ29uc3RydWN0b3IgOiBLYWx0dXJhVHViZU1vZ3VsU3luZGljYXRpb25GZWVkQ2F0ZWdvcmllcywgc3ViVHlwZSA6ICdLYWx0dXJhVHViZU1vZ3VsU3luZGljYXRpb25GZWVkQ2F0ZWdvcmllcycgfVxuICAgICAgICAgICAgfVxuICAgICAgICApO1xuICAgICAgICByZXR1cm4gcmVzdWx0O1xuICAgIH1cbn1cblxudHlwZXNNYXBwaW5nU3RvcmFnZVsnS2FsdHVyYVR1YmVNb2d1bFN5bmRpY2F0aW9uRmVlZCddID0gS2FsdHVyYVR1YmVNb2d1bFN5bmRpY2F0aW9uRmVlZDsiXX0=

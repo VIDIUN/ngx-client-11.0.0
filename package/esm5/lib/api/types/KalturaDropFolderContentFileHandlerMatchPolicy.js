@@ -1,0 +1,16 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/** @enum {number} */
+var KalturaDropFolderContentFileHandlerMatchPolicy = {
+    addAsNew: 1,
+    matchExistingOrAddAsNew: 2,
+    matchExistingOrKeepInFolder: 3,
+};
+export { KalturaDropFolderContentFileHandlerMatchPolicy };
+KalturaDropFolderContentFileHandlerMatchPolicy[KalturaDropFolderContentFileHandlerMatchPolicy.addAsNew] = 'addAsNew';
+KalturaDropFolderContentFileHandlerMatchPolicy[KalturaDropFolderContentFileHandlerMatchPolicy.matchExistingOrAddAsNew] = 'matchExistingOrAddAsNew';
+KalturaDropFolderContentFileHandlerMatchPolicy[KalturaDropFolderContentFileHandlerMatchPolicy.matchExistingOrKeepInFolder] = 'matchExistingOrKeepInFolder';
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiS2FsdHVyYURyb3BGb2xkZXJDb250ZW50RmlsZUhhbmRsZXJNYXRjaFBvbGljeS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL2thbHR1cmEtbmd4LWNsaWVudC8iLCJzb3VyY2VzIjpbImxpYi9hcGkvdHlwZXMvS2FsdHVyYURyb3BGb2xkZXJDb250ZW50RmlsZUhhbmRsZXJNYXRjaFBvbGljeS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7SUFHSSxXQUFVO0lBQ2IsMEJBQXlCO0lBQ3pCLDhCQUE2Qjs7OzhGQUYxQixRQUFROzhGQUNYLHVCQUF1Qjs4RkFDdkIsMkJBQTJCIiwic291cmNlc0NvbnRlbnQiOlsiXG5cbmV4cG9ydCBlbnVtIEthbHR1cmFEcm9wRm9sZGVyQ29udGVudEZpbGVIYW5kbGVyTWF0Y2hQb2xpY3kge1xuICAgIGFkZEFzTmV3PTEsXG5cdG1hdGNoRXhpc3RpbmdPckFkZEFzTmV3PTIsXG5cdG1hdGNoRXhpc3RpbmdPcktlZXBJbkZvbGRlcj0zXG59Il19

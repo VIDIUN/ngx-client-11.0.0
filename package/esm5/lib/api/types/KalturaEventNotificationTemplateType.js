@@ -1,0 +1,16 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/** @enum {string} */
+var KalturaEventNotificationTemplateType = {
+    bpmAbort: 'businessProcessNotification.BusinessProcessAbort',
+    bpmSignal: 'businessProcessNotification.BusinessProcessSignal',
+    bpmStart: 'businessProcessNotification.BusinessProcessStart',
+    email: 'emailNotification.Email',
+    http: 'httpNotification.Http',
+    push: 'pushNotification.Push',
+};
+export { KalturaEventNotificationTemplateType };
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiS2FsdHVyYUV2ZW50Tm90aWZpY2F0aW9uVGVtcGxhdGVUeXBlLmpzIiwic291cmNlUm9vdCI6Im5nOi8va2FsdHVyYS1uZ3gtY2xpZW50LyIsInNvdXJjZXMiOlsibGliL2FwaS90eXBlcy9LYWx0dXJhRXZlbnROb3RpZmljYXRpb25UZW1wbGF0ZVR5cGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7O0lBR0ksVUFBVyxrREFBa0Q7SUFDaEUsV0FBWSxtREFBbUQ7SUFDL0QsVUFBVyxrREFBa0Q7SUFDN0QsT0FBUSx5QkFBeUI7SUFDakMsTUFBTyx1QkFBdUI7SUFDOUIsTUFBTyx1QkFBdUIiLCJzb3VyY2VzQ29udGVudCI6WyJcblxuZXhwb3J0IGVudW0gS2FsdHVyYUV2ZW50Tm90aWZpY2F0aW9uVGVtcGxhdGVUeXBlIHtcbiAgICBicG1BYm9ydCA9ICdidXNpbmVzc1Byb2Nlc3NOb3RpZmljYXRpb24uQnVzaW5lc3NQcm9jZXNzQWJvcnQnLFxuXHRicG1TaWduYWwgPSAnYnVzaW5lc3NQcm9jZXNzTm90aWZpY2F0aW9uLkJ1c2luZXNzUHJvY2Vzc1NpZ25hbCcsXG5cdGJwbVN0YXJ0ID0gJ2J1c2luZXNzUHJvY2Vzc05vdGlmaWNhdGlvbi5CdXNpbmVzc1Byb2Nlc3NTdGFydCcsXG5cdGVtYWlsID0gJ2VtYWlsTm90aWZpY2F0aW9uLkVtYWlsJyxcblx0aHR0cCA9ICdodHRwTm90aWZpY2F0aW9uLkh0dHAnLFxuXHRwdXNoID0gJ3B1c2hOb3RpZmljYXRpb24uUHVzaCdcbn0iXX0=
